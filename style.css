@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "ALK Life", sans-serif;}
+    /******** header ******/
+header{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: 
+    #D9D9D9;
+    width: 
+    1440px;
+    height:200px ;
+}
+
+header ul{
+    display: flex;
+}
+.menu-list-item-link{
+    color:
+    #717276;
+    font-family: "ALK Life", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.active-link{
+    color: red;
+    font-size: 24px;
+}
+.menu-list-item{
+    margin: 0 35px;
+}
+.logo{
+    width: 
+    178px;
+    height: 100px;
+}
+/****** background imige ******/
+.background{
+    width: 
+    1180px;
+    height: 287px;
+    margin: 160px 130px 0 130px; 
+    
+}
+/****** absolute relative ******/
+.box{
+    width: 1180px;
+    height: 856px;
+    background-color: white;
+    margin: 160px 130px 0 130px;
+    position: relative;
+}
+.frame-shvili{
+    width: 100px;
+    height: 100px;
+}
+.shvili-2 {
+    position: absolute;
+    font-size: 32px;
+    color: 
+    #717276;
+    top:24px;
+    left: 140px;
+
+}
+
+.shvili-1{
+    position: absolute;
+    top:0px;
+    left: 0px:
+}
+.frame.shvili-3 {
+    position: absolute;
+    position:absolute;
+    width: 380px;px ;
+    height:
+    686px ;
+    top:140px;
+    left:0;
+}
+.frame.shvili-4 {
+    position: absolute;
+    position:absolute;
+    width: 380px;px ;
+    height:
+    686px ;
+}
+.frame.shvili-5 {
+    position: absolute;
+    position:absolute;
+    width: 380px;px ;
+    height:
+    686px ;
+}
+.header-2{
+    display:flex;
+    align-items: center;
+    width:533px ;
+   height: 100px;
+   background-color:aqua;
+
+}
+.shvili-2{
+    color:#717276;
+    align-items: center;
+    display: flex;
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 24px;
+    text-align: center;
+}
+.shvili-3{
+    position:absolute;
+    top: 140px;
+}
+.shvili-4{
+    position:absolute;
+    top: 140px;
+    left: 400px;
+}
+.shvili-5{
+    position:absolute;
+    top: 140px;
+    left: 800px;
+}
+
+
+
+
