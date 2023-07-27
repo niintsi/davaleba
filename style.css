@@ -53,7 +53,7 @@ header ul{
     margin: 160px 130px 0 130px; 
     
 }
-/******* pirveli mshobeli ******/
+/******* pirveli headeri ******/
 
 header.perent{
     display: flex;
@@ -76,34 +76,128 @@ white;
     margin:0 40px;
 }
 
-/****** meore mshobeli ******/
+/****** meore box ******/
 .perent2{
     display: flex;
-   
-    
-    
-}
-.shvili-1{
-    margin:  130px;
-}
-.shvili-2{
-    margin: 0 20px 0 20px;
-}
+    align-items: center;
+    justify-content: space- around ;
+    width: 
+    1180px;
+    height: 
+    856px;
+    background-color:white;
+    margin: 0 130px 0 130px;
+
+  }
+  .shvili-2{
+    margin: 63px 20px 0 20px;
+  }
+  .shvili-1{
+    margin: 40px 0 0 0;
+  }
+  .shvili-3{
+    margin: 40px 0 0 0 ;
+  }
+  .wigni{
+    width: 380px;
+    height: 
+    512px;
+  }
+/****** teqsti *****/
 .text{
     font-family: "DejaVu Sans", sans-serif;
     font-size: 24px;
-    color: green;
+    color: #717276;
+    margin: 50px 0 8px;
+   
 
 }
-.text-2{
+.text-2-xazze{
     font-family: "ALK Life", sans-serif;
-    font-size: 24px;
-    color: red;
-    margin: 40px 20px 0 20px;
+    color: 
+    #000000;
+    margin: 8px 0 8px 0;
 }
+
 .text-fasi{
     font-family: "DejaVu Sans", sans-serif;
     font-size: 25px;
-    color: brown;
+    color: 
+    #000000;
 
+}
+/***** header 3 ******/
+header.header-3{
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+    width:
+432px;
+    height: 
+    100px;
+    background-color:white;
+    margin: 160px 0 0 130px;
+
+}
+.text-kviris-avtorebi{
+    font-family: "DejaVu Sans", sans-serif;
+    font-size: 32px;
+    color: 
+    #717276;
+    align-items: center;
+    margin: 0 0 0 20px;
+
+
+}
+/****** mesame box ******/
+.mesame-box{
+    display: flex;
+background-color:white;
+    width: 1180px;
+    height: 260px;
+    margin: 40px 0 0 130px;
+}
+.portreti{
+    width: 280px;
+    height: 260px;
+}
+.portreti-2{
+    margin: 0 20px 0 20px;
+    
+}
+.portreti-3{
+    margin: 0 20px 0 0;
+    
+}
+/****** footer ******/
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 
+    1440px;
+    height: 
+    248px;
+    background-color:
+    #D9D9D9 ;
+    margin: 160px 0 0 0 ;
+}
+.item{
+    width:30px ;
+    height:30px;
+   
+}
+.list-item{
+    font-family: "ALK Life", sans-serif;
+    font-size: 24px;
+    margin:0 0 0 130px;
+
+}
+.list-item-midle{
+    margin: 8px 0 8px 130px;
+}
+.item-facebook{
+    color: red;
+    width:30px ;
+    height:30px;
 }
